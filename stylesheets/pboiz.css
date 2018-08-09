@@ -9,6 +9,9 @@ body {
   width: 90%;
   margin: auto;
   font-size: 16px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a {
@@ -93,17 +96,16 @@ a {
 */
 
 #article {
-  height: 500px;
+  height: auto;
   grid-column: 1/4;
   grid-row: 3;
   margin-left: 15px;
   background-color: none;
-  overflow-y: auto;
-  overflow-x: hidden;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(6, auto-fit);
   width: auto;
+  height: auto-fit;
 }
 
 .bio {
@@ -133,8 +135,14 @@ a {
   border-radius: 0px 15px 0px 15px;
 }
 
+.tag {
+  font-size: 12px;
+}
+
 figcaption {
   width: inherit;
+  color: white;
+  font-weight: bold;
 }
 
 footer {
