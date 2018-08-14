@@ -1,42 +1,50 @@
 * {
   /*border-radius: 5px;*/
-  font-family: sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  letter-spacing: 2px;
 }
 
 body {
-  background: linear-gradient(#ffffff, #fcf658, lightgreen);
+  background: black;
+  background-image: url(../images/raveback.png);
+  background-repeat: no-repeat;
   align: center;
-  width: 90%;
+  width: 100%;
   margin: auto;
+  padding: none;
   font-size: 16px;
   height: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  padding: 5px;
+  margin: none;
+  text-align: center;
 }
 
 #nav li {
-  margin: 10px;
   list-style-type: none;
-  background-color: white;
+  background-color: yellow;
   padding: 5px;
-  border: 1px solid yellow;
+  margin: 2px;
   text-align: center;
   float: left;
   display: inline;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px purple;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
-#nav li:hover {
-  box-shadow: 2px 2px 2px yellow;
-  color: yellow;
+#nav a:hover {
+  color: lightgreen;
 }
 
+/*
 .button {
   margin: 5px 10% 5px 10%;
   list-style-type: none;
@@ -49,6 +57,7 @@ a {
   box-shadow: 2px 2px 2px purple;
   width: 80%;
 }
+*/
 
 .button:hover {
   box-shadow: 2px 2px 2px yellow;
@@ -56,11 +65,13 @@ a {
 }
 
 #nav {
-  background-color: lightgreen;
+  padding: 0px;
+  background-color: yellow;
   padding: 5px;
   grid-row: 2;
   grid-column: 1/4;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .wrapper {
@@ -68,8 +79,8 @@ a {
   grid-template-columns: 150px auto;
   grid-template-rows: repeat(4, auto-fit);
   grid-gap: 0;
-  border: 3px solid #00ffcc;
-  border-radius: 10px;
+  /*border: 3px solid #00ffcc;
+  border-radius: 10px;*/
   margin-top: 10px;
   padding: 5px;
 }
@@ -79,7 +90,6 @@ a {
   text-align: center;
   grid-row: 1;
   grid-column: 1/4;
-  border: purple;
 }
 
 /*
@@ -99,23 +109,28 @@ a {
   height: auto;
   grid-column: 1/4;
   grid-row: 3;
-  margin-left: 15px;
   background-color: none;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(6, auto-fit);
   width: auto;
   height: auto-fit;
+  /*background-size: contain;
+  background-image: url(../images/raveback.png);*/
+  color: white;
+  font-size: 18px;
 }
 
 .bio {
   padding: 10px;
   margin-top: 5px;
+  margin-bottom: 20px;
   width: 80%;
   grid-row: auto;
-  border-bottom: 2px solid lightgreen;
+  border-bottom: 2px solid yellow;
   border-radius: 5px;
   margin-left: 5%;
+  background: rgba(0, 0, 0, .6);
 }
 
 .portrait {
@@ -158,4 +173,9 @@ img .logo {
 
 h6 {
   float: left;
+}
+
+h1 {
+  color: black;
+  font-family: 'Jura', sans-serif;
 }
