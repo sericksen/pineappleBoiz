@@ -1,0 +1,9 @@
+{
+  "name": "sean",
+  "version": "1.0",
+  "description": "prototype",
+  "main": "theTeam.html",
+  "repository": "https://github.com/sericksen/pineappleBoiz.git",
+  "author": "Sean Ericksen <sericks6@uoregon.edu>",
+  "license": "MIT"
+}
