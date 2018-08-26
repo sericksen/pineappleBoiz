@@ -9,7 +9,7 @@
 body {
   background: black;
   background-image: url(../images/background1.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   align: center;
   width: 100%;
   margin: auto;
